@@ -1,0 +1,33 @@
+{
+  "name": "async-retry-backoff",
+  "version": "1.0.0",
+  "description": "Type-safe retry wrapper with exponential backoff, jitter, and abort signal support.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "async-retry-backoff",
+    "ts-first"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
