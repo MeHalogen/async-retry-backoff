@@ -1,6 +1,6 @@
 {
   "name": "async-retry-backoff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-safe retry wrapper with exponential backoff, jitter, and abort signal support.",
   "type": "module",
   "main": "./dist/index.js",
